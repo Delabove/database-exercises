@@ -20,6 +20,4 @@ select *
 from albums
 where artist = 'Michael Jackson';
 
-update albums
-set artists = 'Peter Jackson'
-where artist = 'Michael Jackson';
+update albums set artist = 'Peter Jackson'where artist = 'Michael Jackson';
