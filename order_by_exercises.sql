@@ -18,7 +18,7 @@ select *
 from employees
 where last_name
     LIKE 'E%'
-   OR last_name LIKE '%E'
+   OR last_name LIKE '%e%'
     ORDER BY emp_no desc ;
 
 
