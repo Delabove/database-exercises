@@ -7,9 +7,9 @@ use employees;
 
 select *
     from employees
-    WHERE first_name = 'Irena'
+    WHERE (first_name = 'Irena'
     OR first_name = 'Vidya'
-    OR first_name = 'Maya';
+    OR first_name = 'Maya')
     AND gender = 'M';
 
 
