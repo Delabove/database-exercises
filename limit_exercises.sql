@@ -4,8 +4,9 @@ SELECT DISTINCT title FROM titles;
 
 SELECT DISTINCT last_name
 FROM employees
-ORDER BY last_name DESC
-LIMIT 10;
+WHERE last_name LIKE 'a%'
+ORDER BY last_name ASC
+limit 5;
 
 
 SELECT *
